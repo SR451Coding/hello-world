@@ -19,7 +19,7 @@
 # }
 
 # resource "aws_iam_policy" "S3_policy" {
-#   name        = "en-datalake-prod-es2020-full-load-processed-etl-s3-policy"
+#   name   = "en-datalake-prod-es2020-full-load-processed-etl-s3-policy"
 #   description = "Raw Bucket policy"
 
 #   policy = jsonencode({
